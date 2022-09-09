@@ -1,16 +1,16 @@
-#include <stdio.h>
 #include <unistd.h>
+#include <stdio.h>
 /**
- * main - main block
+ * main -main block
  * Return: 0
  */
 int main(void)
 {
 	int a;
 
-	for (a = 0; a < 10; a++)
+	for (a ='z'; a >= 'a'; a--)
 	{
-		printf("%d", a);
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
