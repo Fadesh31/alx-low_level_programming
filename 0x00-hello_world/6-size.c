@@ -3,7 +3,7 @@
  * main - main block
  * Return: 0
  */
-int main (void)
+int main(void)
 {
 	int i;
 	char c;
@@ -14,6 +14,6 @@ int main (void)
 	printf("Size of a char: %lu.\n", (unsigned long)sizeof(c));
 	printf("Size of an int: %lu.\n", (unsigned long)sizeof(i));
 	printf("Size of a long int: %lu.\n", (unsigned long)sizeof(l));
-	printf("Sizef a loong long int: %lu.\n", (unsigned long)sizeof(ll));
-	printf ("Size of a folat: %lu.\n", (unsigned long)sizeof(f));
+	printf("Sizef a long long int: %lu.\n", (unsigned long)sizeof(ll));
+	printf("Size of a float: %lu.\n", (unsigned long)sizeof(f));
 }
