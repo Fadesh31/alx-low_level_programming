@@ -2,12 +2,13 @@
 #include <unistd.h>
 /**
  * main- main Block
- * Description: prints alphabet in lowercase 
+ * Description: prints alphabet in lowercase
  * Return: 0
  */
 int main(void)
 {
 	int ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch != 'e' && ch != 'q')
