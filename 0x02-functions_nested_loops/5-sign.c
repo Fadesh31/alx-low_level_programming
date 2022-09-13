@@ -2,8 +2,8 @@
 /**
  * print_sign - entry point
  * Description: prints the sign of a number
- * @c: carrier variable
- * Return: 1 if n>0, 0 if n==0, -1 if n<0
+ * @n: carrier variable
+ * Return: 1 if n>0, 0 if n== 0, -1 if n<0
  */
 int print_sign(int n)
 {
