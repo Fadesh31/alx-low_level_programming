@@ -39,7 +39,7 @@ void print_times_table(int n)
 						_putchar(32);
 						_putchar(32);
 					}
-					putchar(z + '0');
+						_putchar(z + '0');
 				}
 			}
 			_putchar('\n');
