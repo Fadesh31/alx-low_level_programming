@@ -5,11 +5,13 @@
  */
 int main(void)
 {
-	char ch;
+	char text [9] = "_putchar";
 
-	for (ch = 'a'; ch <= 'd'; ch++);
+	int i = 0;
+
+	for(i = '0'; i < '8'; i++)
 	{
-		_putchar(ch);
+		_putchar(text[i]);
 	}
 	_putchar('\n');
 	return (0);
