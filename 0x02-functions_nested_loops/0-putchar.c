@@ -11,7 +11,7 @@ int main(void)
 
 	for(i = '0'; i < '8'; i++)
 	{
-		putchar(text[i]);
+		putchar(text);
 	}
 	putchar('\n');
 	return (0);
