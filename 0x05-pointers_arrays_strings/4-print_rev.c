@@ -2,7 +2,7 @@
 
 /**
  * print_rev - prints a string in reverse
- * @s: the string to be printed in reverse
+ * @s: pointer referencing the string
  * Return: void
  */
 
@@ -14,7 +14,6 @@ void print_rev(char *s)
 		i++;
 
 	while (i--)
-
 	{
 		_putchar(s[i]);
 	}
