@@ -3,11 +3,10 @@
 
 /**
  * infinite_add - adds two numbers
- * @n1: first number
- * @n2: second number
- * @r: buffer for result
- * @size_r: buffer size
- *
+ * @n1: number one
+ * @n2: number two
+ * @r: buffer that the function will use to store result
+ * @size_r: buffer size:
  * Return: pointer to dest
  */
 
