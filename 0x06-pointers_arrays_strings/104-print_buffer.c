@@ -26,7 +26,8 @@ void print_line(char *b, int c, int size)
 
 	i = 0;
 	while (i < 10)
-	{	if (i + c < size)
+	{
+		if (i + c < size)
 		{
 			if ((b[i + c] < 32 || b[i + c] > 126))
 				printf(".");
