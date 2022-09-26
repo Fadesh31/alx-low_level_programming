@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strchr - prints the character c if found
  * @: pointer to the char array
@@ -22,5 +23,5 @@ char *_strchr(char *s, char c)
 		return (s);
 	}
 
-	return(0);
+	return (0);
 }
