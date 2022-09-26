@@ -2,7 +2,7 @@
 
 /**
  * _strchr - prints the character c if found
- * @: pointer to the char array
+ * @s: string
  * @c: char paramaters to be found
  * Return: *s
  */
