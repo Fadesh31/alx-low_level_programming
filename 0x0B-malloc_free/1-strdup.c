@@ -6,7 +6,7 @@
  * @str: string to be copied
  * Return: pointer to be duplicated or NULLif error
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	unsigned int i, n;
 	char *s;
