@@ -43,8 +43,7 @@ char **strtow(char *str)
 	if (w == NULL)
 		return (NULL);
 	w[n - 1] = NULL;
-	i = 0;
-	while (str[i])
+	for (i = 0; str[i]; i++)
 	{
 		if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
 		{
@@ -67,8 +66,6 @@ char **strtow(char *str)
 			wc++;
 			i += j;
 		}
-		else
-			i++;
 	}
 	return (w);
 
