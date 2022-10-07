@@ -1,8 +1,8 @@
-#ifndef "MAIN_H"
-#define "MAIN_H"
+#ifndef "FILE_MAIN"
+#define "FILE_MAIN"
 
-#include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
