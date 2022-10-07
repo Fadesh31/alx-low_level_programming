@@ -35,14 +35,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (ptr == NULL)
 		return (0);
 
-	for (i 0; i < len1; i++)
+	for (i = 0; i < len1; i++)
 	{
 		ptr[i] = s1[i];
 	}
 	
 	for (; i < (len1 + n); i++)
 	{
-		ptr[i]= s2[i - len1];
+		ptr[i] = s2[i - len1];
 	}
 
 	ptr[i] = '\0'
