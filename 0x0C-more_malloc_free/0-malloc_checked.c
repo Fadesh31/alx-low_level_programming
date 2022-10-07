@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * malloc_checked - allocates memory using malloc
- * @b: number of bytes to be allocated
- * Return: 98 or pointer to the allocated memeory
+ * malloc_checked - function that allocates memory
+ * using malloc
+ * @b: the number of buyes to allocate
+ * Return: 98 or pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
